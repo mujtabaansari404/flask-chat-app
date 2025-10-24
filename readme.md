@@ -1,4 +1,7 @@
 ## Guide
+
+# if readme.md output looks messy
+go to edit then see te folder structure
 # ⚠️ Flask Chat App — Setup Warning & Folder Guide
 
 This project is a **Flask-based Chat Application** that uses HTML, CSS, JS, and audio notifications.  
@@ -25,5 +28,6 @@ flask-chat-app/
     |   |---signup
     |---app.py
     
+
 
 
