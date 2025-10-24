@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/form.css">
+    <title>app/chat/signup</title>
+</head>
+<body>
+    <div class="form-box">
+        <form class="form" action="/signup" method="POST">
+            <span class="title">Sign up</span>
+            <span class="subtitle">Create a free account with your email.</span>
+            <div class="form-container">
+                <input type="text" id="full-name" name="full-name" class="input" placeholder="Full Name" required>
+                <input type="email" id="email" name="email" class="input" placeholder="Email" required>
+                <input type="password" id="password" name="password" class="input" placeholder="Password" required>
+            </div>
+            <button type="submit">Sign up</button>
+        </form>
+        <div class="form-section">
+            <p>Have an account? <a href="/login">Log in</a></p>
+        </div>
+    </div>   
+</body>
+</html>

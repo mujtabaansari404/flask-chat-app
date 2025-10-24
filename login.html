@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/form.css">
+    <title>App/chat/login</title>
+</head>
+<body>
+    <div class="form-box">
+        <form class="form" action="/login" method="POST">
+            <span class="title">Log in</span>
+            <span class="subtitle">Access your account using your email and password.</span>
+            <div class="form-container">
+                <input type="email" id="email" name="email" class="input" placeholder="Email" required>
+                <input type="password" id="password" name="password" class="input" placeholder="Password" required>
+            </div>
+            <button type="submit">Log in</button>
+        </form>
+        <div class="form-section">
+            <p>Don't have an account? <a href="/">Sign up</a></p>
+        </div>
+    </div>        
+</body>
+</html>
